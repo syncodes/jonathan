@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: comics sans-serif;
+          margin: 0;
+    }
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: rgb(98, 242, 146);
+      color: white;
+    }
+    .header h1 {
+      font-size: 40px;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:right {
+      float: right;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .navbar a.active {
+      background-color: #666;
+      color: white;
+    }
+    /* Column container */
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    .footer {
+      margin-top: 1px;
+      border: 5px solid #eee;
+      padding: 1px;
+      text-align: center;
+      background-color: #ddd;
+}
+@media screen and (max-width: 700px) {
+  .row {
+    float: none;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+
+  
+<div class="header">
+  <h1>Jonathan's Website</h1>
+  <p> A <b>website</b> created by sync </p>
+</div>
+<div class="navbar">
+  <a href="onlyfans.html" class="active">onlyfans</a>
+  <a href="aboutme.html" class="link">About me</a>
+  <a href="contact me.html" class="link">Contact me</a>
+  <a href="#" class="right">Home</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About me</h2>
+    <h5>Photo of me: </h5>
+    <div class="fakeimg" style=height:200px;">Image</div>
+    <p>Hi, My name is Jonathan and welcome to my website</p>
+    <h3>More about</h3>
+    <p>More of my pictures</p>
+    <div class="fakeimg" style=height:60px;">Image</div><br>
+    <div class="fakeimg" style=height:60px;">Image</div><br>
+    <div class="fakeimg" style=height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>Main page</h2>
+    <h5>I made a new onlyfans account, 12-12-2022</h5>
+    <div class="fakeimg" style=height:200px;">Image</div>
+    <p>Please subscribe to my onlyfans</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe neque illum nisi blanditiis aliquam aliquid rerum rem quasi et animi omnis obcaecati error accusantium in, qui voluptates modi, facilis officia.</p>
+    <br>
+    <h2>I'm making a website</h2>
+    <h5>Things about my website, 12-12-2022 </h5>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit dolorum veniam magnam quo, debitis similique expedita repellendus amet perspiciatis est necessitatibus velit, fuga incidunt voluptatem quis rerum. Itaque, hic cumque?</p>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Jonathan 2022</h2>
+</div>
+
+</body>
+</html>
